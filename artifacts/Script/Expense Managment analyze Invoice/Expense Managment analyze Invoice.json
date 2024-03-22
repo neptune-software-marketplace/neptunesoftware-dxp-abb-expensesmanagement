@@ -1,0 +1,33 @@
+{
+	"id": "28abcc86-f4cf-ed11-a8de-000d3a65e714",
+	"createdAt": "2023-03-31T18:47:46.900Z",
+	"createdBy": "abesh@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "91C9AA8A-9A4C-EC11-981F-A085FCBC956D",
+			"name": "@azure/storage-blob",
+			"contextname": "blob",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/@azure/storage-blob"
+		},
+		{
+			"id": "A4E005BD-D0CF-ED11-A8DE-000D3A65E714",
+			"name": "@azure/ai-form-recognizer",
+			"contextname": "invoiceparser",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/@azure/ai-form-recognizer"
+		}
+	],
+	"entitySets": [],
+	"apis": [],
+	"name": "Expense Managment analyze Invoice",
+	"ver": "24.3.21.1042",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "1c1b7687-c8cf-ed11-a8de-000d3a65e714",
+	"package": "67e22352-7142-ee11-b8f0-002248a2f7be"
+}

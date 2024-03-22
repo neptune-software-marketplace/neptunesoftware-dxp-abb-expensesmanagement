@@ -1,0 +1,26 @@
+{
+	"id": "e34536e1-e22e-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-30T14:10:48.116Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "D1906242-ED29-EE11-907E-000D3A661202",
+			"name": "travel_expenses",
+			"contextname": "travel_expenses"
+		}
+	],
+	"apis": [],
+	"name": "Expense Managment Approve",
+	"ver": "24.3.20.1557",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "ea525fd7-3c2d-ee11-907e-000d3a661202",
+	"package": "67e22352-7142-ee11-b8f0-002248a2f7be"
+}

@@ -1,0 +1,87 @@
+{
+	"id": "30ea929a-9b2b-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-26T10:03:04.173Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "ddf76654-aa30-4aa9-c862-276552fc27b9",
+			"fieldName": "base64",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3b53ec02-bfa8-4a7e-a767-fe8c8cbc752f",
+			"fieldName": "Uniqe_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7525cf4a-4f8d-4d3b-bfee-31146bdce5d8",
+			"fieldName": "comments",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f2fc82d2-aa1a-418a-e562-aba70bca9b58",
+			"fieldName": "InvoiceTotal",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d4fa66fd-f2df-4d9e-c7f5-105e2e483a55",
+			"fieldName": "jsonData",
+			"fieldType": "json",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3f5584ce-6142-45d0-a85b-d0f81506d2fa",
+			"fieldName": "OCR_receiptCurr",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "df7fd2b0-9102-46ef-dbbd-8138af33e804",
+			"fieldName": "curr",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"default": "EUR"
+		},
+		{
+			"id": "e0359ad4-d78a-4ca3-f2c3-2465a683f95d",
+			"fieldName": "receipt_price",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "74663520-1489-47cc-b54c-0fb7c9420d05",
+			"fieldName": "EUR_price",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1cf4ac1f-b33b-4c4f-af16-b7b61bf106bb",
+			"fieldName": "isNONEUR",
+			"fieldType": "boolean",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "expensemanagmentreceipts",
+	"description": null,
+	"ver": "24.3.20.193",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "67e22352-7142-ee11-b8f0-002248a2f7be",
+	"rolesRead": [],
+	"rolesWrite": []
+}

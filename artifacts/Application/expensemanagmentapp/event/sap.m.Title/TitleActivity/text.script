@@ -1,0 +1,12 @@
+var formattedText = Reason;
+if (formattedText == "1") {
+    formattedText = "Meeting";
+}
+if (formattedText == "2") {
+    formattedText = "Presentation";
+}
+if (formattedText == "3") {
+    formattedText = "Customer course";
+}
+
+return formattedText;

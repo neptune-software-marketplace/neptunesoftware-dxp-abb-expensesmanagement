@@ -1,0 +1,145 @@
+.ReceiptPreview {
+  height: 300px;
+  width: 300px;
+}
+
+.zeroHeight {
+  height: 0px;
+  width: 0px;
+}
+
+.Page {
+  background-color: white;
+}
+
+.sapMITBContent {
+  padding: 0rem !important;
+  position: relative;
+  background-color: #f5f6f7;
+}
+
+.thumbnail {
+  display: block;
+  max-width: 230px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
+.HBoxImage {
+  background-color: white;
+}
+
+.Carousel {
+  display: block;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+.TitleGreen {
+  color: green;
+  font-weight: bold;
+}
+
+.TitleRed {
+  color: red;
+  font-weight: bold;
+}
+
+.TitleBlue {
+  color: navy;
+  font-weight: bold;
+}
+
+.TitleOrange {
+  color: orange;
+  font-weight: bold;
+}
+
+.sapMObjStatusInverted.sapMObjStatusWarning .sapMObjStatusText, .sapMObjStatusInverted.sapMObjStatusWarning .sapMObjStatusIcon {
+  background-color: orange !important;
+  color: white !important;
+  width: 120px !important;
+  text-align: center !important;
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.sapMObjStatusInverted.sapMObjStatusSuccess .sapMObjStatusText, .sapMObjStatusInverted.sapMObjStatusSuccess .sapMObjStatusIcon {
+  background-color: green !important;
+  color: white !important;
+  width: 120px !important;
+  text-align: center !important;
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.sapMObjStatusInverted.sapMObjStatusError .sapMObjStatusText, .sapMObjStatusInverted.sapMObjStatusError .sapMObjStatusIcon {
+  background-color: red !important;
+  color: white !important;
+  width: 120px !important;
+  text-align: center !important;
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.sapMObjStatusInverted.sapMObjStatusIndication05 .sapMObjStatusText, .sapMObjStatusInverted.sapMObjStatusIndication05 .sapMObjStatusIcon {
+  background-color: #0070f2;
+  color: white !important;
+  width: 120px !important;
+  text-align: center !important;
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 15px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sapMObjStatusInverted.sapMObjStatusWarning .sapMObjStatusText, .sapMObjStatusInverted.sapMObjStatusWarning .sapMObjStatusIcon {
+    background-color: orange !important;
+    color: white !important;
+    width: 70px !important;
+    text-align: center !important;
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 11px;
+    padding: 5px;
+  }
+  .sapMObjStatusInverted.sapMObjStatusSuccess .sapMObjStatusText, .sapMObjStatusInverted.sapMObjStatusSuccess .sapMObjStatusIcon {
+    background-color: green !important;
+    color: white !important;
+    width: 70px !important;
+    text-align: center !important;
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 11px;
+    padding: 5px;
+  }
+  .sapMObjStatusInverted.sapMObjStatusError .sapMObjStatusText, .sapMObjStatusInverted.sapMObjStatusError .sapMObjStatusIcon {
+    background-color: red !important;
+    color: white !important;
+    width: 70px !important;
+    text-align: center !important;
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 11px;
+    padding: 5px;
+  }
+  .sapMObjStatusInverted.sapMObjStatusIndication05 .sapMObjStatusText, .sapMObjStatusInverted.sapMObjStatusIndication05 .sapMObjStatusIcon {
+    background-color: #0070f2;
+    color: white !important;
+    width: 70px !important;
+    text-align: center !important;
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 11px;
+    padding: 5px;
+  }
+}

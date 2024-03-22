@@ -1,0 +1,2 @@
+DialogCountries.open();
+SearchField.setValue(InputCountry.getValue());

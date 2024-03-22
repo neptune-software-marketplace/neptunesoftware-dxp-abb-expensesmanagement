@@ -1,0 +1,3 @@
+const binding = ListCurr1.getBinding("items");
+const filter = new sap.ui.model.Filter("exchangeLongName", "Contains", this.getValue());
+binding.filter([filter]);

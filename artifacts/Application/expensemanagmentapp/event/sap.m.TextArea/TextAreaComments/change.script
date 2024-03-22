@@ -1,0 +1,12 @@
+
+var id = TextID.getText();
+var options = {
+    parameters: {
+        "where": JSON.stringify({"Uniqe_id" : id})
+    },
+    data: {
+        "Comments": this.getValue(),
+    }
+};
+
+apiRestAPIPostExpense(options);

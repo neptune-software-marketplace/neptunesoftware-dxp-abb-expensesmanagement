@@ -1,0 +1,19 @@
+// var fileValue = pdfUploader.getValue();
+// var parser = Select.getSelectedKey();
+// if (fileValue === "") {
+//     sap.m.MessageToast.show("Please select an invoice to upload !");
+//     return;
+// }
+// sap.ui.core.BusyIndicator.show(0);
+// var file = pdfUploader.oFileUpload.files[0];
+
+// var options = {
+//     data: {
+//         pdfFile: fileContentBase64,
+//         parser: parser
+//     },
+// };
+
+// apiRestAPIUploadBlob(options);
+
+App.to(oPage)

@@ -1,0 +1,174 @@
+{
+	"id": "67e22352-7142-ee11-b8f0-002248a2f7be",
+	"createdAt": "2023-08-24T11:28:18.190Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-expensesmanagement"
+	},
+	"name": "neptunesoftware-dxp-abb-expensemanagement",
+	"description": null,
+	"ver": "24.3.21.1025",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "a16228f7-d0e6-ee11-aaee-000d3a64f286",
+			"application": "expensemanagmentapp",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "67E22352-7142-EE11-B8F0-002248A2F7BE"
+			}
+		},
+		{
+			"id": "62ec0221-d1e6-ee11-aaee-000d3a64f286",
+			"application": "expensemanagmentembeddedinboxapp",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "67E22352-7142-EE11-B8F0-002248A2F7BE"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "ba15741a-ef29-ee11-907e-000d3a661202",
+			"name": "expenseManagmentAPI ",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "b56d05d9-fa29-ee11-907e-000d3a661202",
+			"name": "expenseManagmentGetCountriesAPI",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "b174da30-536b-ed11-9f60-000d3aba46be",
+			"name": "ExpenseManagmentAzureBlob1",
+			"description": null,
+			"apiGroup": "b67887b8-d46c-ed11-9f60-000d3aba46be"
+		},
+		{
+			"id": "4ef2dead-9b2b-ee11-907e-000d3a661202",
+			"name": "expenseManagmentReceiptsAPI",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "d1906242-ed29-ee11-907e-000d3a661202",
+			"name": "expensemanagmentexpenses",
+			"description": null
+		},
+		{
+			"id": "ab9c3b0c-fa29-ee11-907e-000d3a661202",
+			"name": "expensemanagmentcountries",
+			"description": null
+		},
+		{
+			"id": "30ea929a-9b2b-ee11-907e-000d3a661202",
+			"name": "expensemanagmentreceipts",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "e34536e1-e22e-ee11-907e-000d3a661202",
+			"name": "Expense Managment Approve",
+			"description": null
+		},
+		{
+			"id": "5576e40a-422d-ee11-907e-000d3a661202",
+			"name": "Expense Managment Reject",
+			"description": null
+		},
+		{
+			"id": "545b9b90-c8cf-ed11-a8de-000d3a65e714",
+			"name": "Expense Managment Upload to Azure Blob",
+			"description": null
+		},
+		{
+			"id": "28abcc86-f4cf-ed11-a8de-000d3a65e714",
+			"name": "Expense Managment analyze Invoice",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "ea525fd7-3c2d-ee11-907e-000d3a661202",
+			"name": "Expense Managment Workflow",
+			"description": null
+		},
+		{
+			"id": "1c1b7687-c8cf-ed11-a8de-000d3a65e714",
+			"name": "Expense Managment Azure Parse Invoice",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "ec788a9f-582c-ee11-907e-000d3a661202",
+			"description": "",
+			"name": "Expense Managment"
+		},
+		{
+			"id": "96e87355-df2e-ee11-907e-000d3a661202",
+			"description": null,
+			"name": "Expense Managment Inbox"
+		}
+	],
+	"category": [
+		{
+			"id": "c251bfd7-7142-ee11-b8f0-002248a2f7be",
+			"description": null,
+			"name": "Expense Managment"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "0d4dcdc2-7142-ee11-b8f0-002248a2f7be",
+			"name": "Expense Managment Launchpad",
+			"description": "Expense Managment"
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [
+		{
+			"id": "2bf35f2d-e82e-ee11-907e-000d3a661202",
+			"title": "Expense Managment Request",
+			"subTitle": null
+		}
+	],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [
+		{
+			"id": "c0b35b11-3e2d-ee11-907e-000d3a661202",
+			"name": "Expense Management Approvers",
+			"description": null
+		}
+	],
+	"wf_taskaction": [
+		{
+			"id": "72c99ce5-88e0-ee11-85fa-000d3a6992ac",
+			"name": "Expense Managment Task Action",
+			"description": null
+		}
+	]
+}

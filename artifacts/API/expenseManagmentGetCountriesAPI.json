@@ -1,0 +1,334 @@
+{
+	"id": "b56d05d9-fa29-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-24T08:19:46.530Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "256f8200-0b92-4ec8-bb17-abebf19690ce",
+			"path": "/expensemanagmentcountries",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "expensemanagmentcountries"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "f9ce7800-da28-4c7e-a372-449ed4d3248d",
+			"path": "/expensemanagmentcountries",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "expensemanagmentcountries"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "expensemanagmentcountries"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "1cbe5335-b1e4-487d-ade9-3dada025c9ef",
+			"path": "/expensemanagmentcountries",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "expensemanagmentcountries"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "expensemanagmentcountries"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d43fbed4-7d1f-41d9-b960-5071e40a817a",
+			"path": "/expensemanagmentcountries",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "expensemanagmentcountries"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "5cf1cdb9-d203-4ab1-b643-22990770ed4f",
+			"path": "/expensemanagmentcountries/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "13905897-8e58-4261-a52f-f3d3be3246b5",
+			"name": "expensemanagmentcountries",
+			"properties": [
+				{
+					"id": "8acb4a22-8882-431a-bbfc-65c2573967d0",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "2a61bd2e-83a1-4ace-8306-c6505c32e2bc",
+					"parent": "",
+					"name": "name",
+					"objectType": "string"
+				},
+				{
+					"id": "b23eb584-aaca-4a42-b070-783cb0dd7027",
+					"parent": "",
+					"name": "code",
+					"objectType": "string"
+				},
+				{
+					"id": "08afe898-3756-4600-bb65-382ec3c9041a",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "de0c04dd-fd4a-4e21-90a0-3b90b5a5d3a7",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "eeba237d-dab9-4a43-b341-2fbbc696a715",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "2ac5b0f8-388d-45c1-a320-845b41f2d192",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "dcc00390-9747-401d-9d3a-4a66b9cc456a",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "34b4c55a-8a80-4cc1-a3a3-a4f9d1b1c044",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "53cdb45f-8020-4f54-994b-11bd405414e7",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "e090f9ca-6788-46e4-8b2d-7d7911a18aec",
+			"name": "count",
+			"properties": [
+				{
+					"id": "bc87f392-14fb-4753-9f36-e9c218dd582c",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "expenseManagmentGetCountriesAPI",
+	"endpoint": "/api/entity",
+	"ver": "24.3.20.1723",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "67e22352-7142-ee11-b8f0-002248a2f7be",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

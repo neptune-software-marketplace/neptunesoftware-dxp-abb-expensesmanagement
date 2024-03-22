@@ -1,0 +1,5 @@
+const context = oEvent.oSource.getBindingContext();  
+const value = context.getProperty("exchangeCode");
+SelectCurr2.setValue(value);
+DialogCurrencyTo.close();
+SearchField2.setValue();

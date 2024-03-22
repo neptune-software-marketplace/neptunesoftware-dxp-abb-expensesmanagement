@@ -1,0 +1,87 @@
+{
+	"id": "d1906242-ed29-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-24T06:42:33.733Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "8acc156a-85f9-41b7-bcba-55d6ae5f89aa",
+			"fieldName": "From",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "66e99722-0284-452b-c48e-da78b2ab2dc8",
+			"fieldName": "To",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "707cf80e-f764-42ce-8f7f-0d2f851f8143",
+			"fieldName": "Location",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "99e9b823-4d24-4247-e2bb-c16724e03c07",
+			"fieldName": "Reason",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d732b2fa-9124-4b9e-bf3d-8c69b1b16a0f",
+			"fieldName": "Country",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d7d4beba-d39a-494f-cc23-4d5d3bdb53c9",
+			"fieldName": "Activity",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4a6ff4d1-8516-4277-c1aa-685d72149c70",
+			"fieldName": "Comments",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "60a9a12d-bcaa-43bd-959d-83a4a95678d8",
+			"fieldName": "Uniqe_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e54cf18e-2a73-451a-86c0-3d17af28bc21",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3c2c7321-25a0-4d59-d6a8-89e8ef0752eb",
+			"fieldName": "totalPrice",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "expensemanagmentexpenses",
+	"description": null,
+	"ver": "24.3.20.192",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "67e22352-7142-ee11-b8f0-002248a2f7be",
+	"rolesRead": [],
+	"rolesWrite": []
+}

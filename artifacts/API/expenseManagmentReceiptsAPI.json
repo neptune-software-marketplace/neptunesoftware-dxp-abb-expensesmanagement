@@ -1,0 +1,383 @@
+{
+	"id": "4ef2dead-9b2b-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-26T10:03:34.193Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "70f7d5d2-5c5c-4bed-b4b5-d9e3a5c638d2",
+			"path": "/expensemanagmentreceipts",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "expensemanagmentreceipts"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "bc67bf2e-5b0e-4841-abc1-23fb5a6a64c1",
+			"path": "/expensemanagmentreceipts",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "expensemanagmentreceipts"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "expensemanagmentreceipts"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0abe6a26-807b-4f6b-ab96-69a5ce83d539",
+			"path": "/expensemanagmentreceipts",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "expensemanagmentreceipts"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "expensemanagmentreceipts"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "65285180-a0c3-44d4-980f-cbae7ff8309f",
+			"path": "/expensemanagmentreceipts",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "expensemanagmentreceipts"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b5265a8d-44a1-4fea-a599-97c833199681",
+			"path": "/expensemanagmentreceipts/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "79f00853-82c7-440b-b0b9-a98200122059",
+			"name": "expensemanagmentreceipts",
+			"properties": [
+				{
+					"id": "eb55991f-84fd-4399-96e9-d4645397019d",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "6916088c-522a-4a12-9856-5be3becde5e8",
+					"parent": "",
+					"name": "base64",
+					"objectType": "string"
+				},
+				{
+					"id": "b53a95b7-abdf-4751-928e-7413b46038c0",
+					"parent": "",
+					"name": "Uniqe_id",
+					"objectType": "uuid"
+				},
+				{
+					"id": "641bbe3e-9fa2-41c6-8c7e-dc834efc460f",
+					"parent": "",
+					"name": "comments",
+					"objectType": "string"
+				},
+				{
+					"id": "aef9b979-dded-4e0e-8d0c-1fd9cfaa87c5",
+					"parent": "",
+					"name": "InvoiceTotal",
+					"objectType": "string"
+				},
+				{
+					"id": "f4081d30-aab8-4f0b-9532-ead22c353662",
+					"parent": "",
+					"name": "jsonData",
+					"objectType": "object"
+				},
+				{
+					"id": "d65a371e-42dc-4eae-97bb-4032589e621a",
+					"parent": "",
+					"name": "OCR_receiptCurr",
+					"objectType": "string"
+				},
+				{
+					"id": "b275a179-343e-4800-abb1-9d906d974928",
+					"parent": "",
+					"name": "curr",
+					"default": "EUR",
+					"objectType": "string"
+				},
+				{
+					"id": "0d5579f4-1127-4a7a-a24f-658811dee72f",
+					"parent": "",
+					"name": "receipt_price",
+					"objectType": "string"
+				},
+				{
+					"id": "1a5a2580-c4a3-482e-bbf3-47f131be3942",
+					"parent": "",
+					"name": "EUR_price",
+					"objectType": "string"
+				},
+				{
+					"id": "fdc5d086-1e7d-4e6c-9f68-69c7333a5781",
+					"parent": "",
+					"name": "isNONEUR",
+					"objectType": "boolean"
+				},
+				{
+					"id": "8b7b9ac5-2bae-4f2e-8099-79fc5730725a",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "3c8922ea-f9a6-4310-a19a-69959009e47c",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "98a338b6-4fe1-49d7-81b5-2e83456a17e0",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "dedcc3fe-d104-431b-9bb5-f6645d6e731e",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "720e1915-96e3-4a47-9fc8-b8e7cd72f000",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "72bba789-e38d-4869-8a3a-10f9a4f40104",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "c0c68fd9-3fba-41dc-a76e-cceea9e5979f",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "55a2ea7f-87d8-4efd-bd8d-c0d67c6d3fc6",
+			"name": "count",
+			"properties": [
+				{
+					"id": "70cc303e-6ca0-4fcc-bb76-cfc8c63238c8",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "expenseManagmentReceiptsAPI",
+	"endpoint": "/api/entity",
+	"ver": "24.3.20.1724",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "67e22352-7142-ee11-b8f0-002248a2f7be",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

@@ -1,0 +1,90 @@
+function generateUUID() {
+    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+        const r = (Math.random() * 16) | 0;
+        const v = c === "x" ? r : (r & 0x3) | 0x8;
+        return v.toString(16);
+    });
+}
+
+if (oDatePickerTDDateFrom.getValue() == "") {
+    sap.m.MessageToast.show("Dates can not be empty");
+    oDatePickerTDDateFrom.setValueState("Warning");
+    return;
+}
+if (oDatePickerTDDateTo.getValue() == "") {
+    sap.m.MessageToast.show("Dates can not be empty");
+    oDatePickerTDDateTo.setValueState("Warning");
+    return;
+}
+if (oInputTDLocation.getValue() == "") {
+    sap.m.MessageToast.show("Location can not be empty");
+    oInputTDLocation.setValueState("Warning");
+    return;
+}
+if (oInputTDReason.getValue() == "") {
+    sap.m.MessageToast.show("Reason can not be empty");
+    oInputTDReason.setValueState("Warning");
+    return;
+}
+if (InputCountry.getValue() == "") {
+    sap.m.MessageToast.show("Country can not be empty");
+    InputCountry.setValueState("Warning");
+    return;
+}
+ButtonOCR.setVisible(false);
+HBoxAddButton.setVisible(false);
+IconTabBar.setVisible(false);
+SimpleFormReceiptDetails.setVisible(false);
+oDatePickerTDDateFrom.setEditable(false);
+oDatePickerTDDateTo.setEditable(false);
+oInputTDLocation.setEditable(false);
+oInputTDReason.setEditable(false);
+InputCountry.setEditable(false);
+TextAreaComments.setEditable(false);
+const myUUID = TextID.getText();
+var dateObjectFrom = new Date(oDatePickerTDDateFrom.getDateValue());
+var dateObjectTo = new Date(oDatePickerTDDateTo.getDateValue());
+
+var options = {
+    parameters: {
+        where: JSON.stringify({ Uniqe_id: myUUID }),
+    },
+    data: {
+        From: dateObjectFrom,
+        To: dateObjectTo,
+        Location: oInputTDLocation.getValue(),
+        Reason: oInputTDReason.getValue(),
+        Country: InputCountry.getValue(),
+        Comments: TextAreaComments.getValue(),
+        Uniqe_id: myUUID,
+        status: "Sent",
+    },
+};
+
+apiRestAPIPostExpense(options);
+var username = AppCache.userInfo.username;
+
+var wfData = {
+    id: "2BF35F2D-E82E-EE11-907E-000D3A661202",
+    objectType: "KUNNR",
+    objectKey: myUUID,
+    amount: "1000",
+    currency: "EUR",
+    approver: "",
+};
+$.ajax({
+    type: "POST",
+    contentType: "application/json",
+    url: "/api/functions/WorkflowInbox/Start", // Remember full path if triggered externally
+    headers: {
+        // Needed when triggered externally
+        Authorization: "Basic xxxx ", // Or use Bearer + token (JWT from user)
+        "X-Requested-With": "XMLHttpRequest",
+    },
+    data: JSON.stringify(wfData),
+    success: function (data) {
+        ButtonSendForApproval.setVisible(false);
+        TextStatus.setText("Sent");
+    },
+    error: function (result, status) {},
+});

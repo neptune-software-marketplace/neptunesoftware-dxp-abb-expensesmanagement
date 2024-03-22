@@ -1,0 +1,14 @@
+if (sort === true) {
+    const oSorter = new sap.ui.model.Sorter("createdAt", false, false);
+    const binding = oListTrips.getBinding("items");
+    binding.sort(oSorter);
+    sort = false;
+    return;
+}
+if (sort === false) {
+    const oSorter = new sap.ui.model.Sorter("createdAt", true, false);
+    const binding = oListTrips.getBinding("items");
+    binding.sort(oSorter);
+    sort = true;
+    return;
+}

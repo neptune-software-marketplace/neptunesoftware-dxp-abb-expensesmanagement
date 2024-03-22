@@ -1,0 +1,5 @@
+const context = oEvent.oSource.getBindingContext();  
+const value = context.getProperty("name");
+InputCountry.setValue(value);
+DialogCountries.close();
+SearchField.setValue();

@@ -1,0 +1,24 @@
+if (typeof status === "undefined" || status === null || status === "") {
+    return;
+}
+var formattedText = status;
+
+switch (formattedText) {
+    case "Approved":
+        formattedText = "Success";
+        break;
+
+    case "Sent":
+        formattedText = "Warning";
+        break;
+
+    case "Rejected":
+        formattedText = "Error";
+        break;
+
+    case "Draft":
+        formattedText = "Indication05";
+        break;
+}
+
+return formattedText;

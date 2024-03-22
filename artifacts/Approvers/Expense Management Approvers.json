@@ -1,0 +1,36 @@
+{
+	"id": "c0b35b11-3e2d-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-28T11:58:30.753Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"items": [
+		{
+			"id": "cc7920d3-b103-4b75-fcde-0db63c25e5dc",
+			"orgUnit": "U",
+			"orgValue": "kaan.koska@neptune-software.com",
+			"amountFrom": 0,
+			"amountTo": "100000",
+			"operation": "O",
+			"taskType": [],
+			"orgId": "0591eb58-f8f2-ed11-907c-000d3a654fb6",
+			"taskAction": [
+				"72C99CE5-88E0-EE11-85FA-000D3A6992AC"
+			]
+		},
+		{
+			"id": "a6b9a0c7-7191-42cf-f5d5-fce4bd2c762a",
+			"orgUnit": "U",
+			"orgValue": "kaan1",
+			"amountFrom": 0,
+			"amountTo": "100000",
+			"operation": "O",
+			"taskType": [],
+			"orgId": "475ffc34-6088-ee11-8925-0022489e2d9f",
+			"taskAction": [
+				"72C99CE5-88E0-EE11-85FA-000D3A6992AC"
+			]
+		}
+	],
+	"name": "Expense Management Approvers",
+	"description": null,
+	"package": "67e22352-7142-ee11-b8f0-002248a2f7be"
+}

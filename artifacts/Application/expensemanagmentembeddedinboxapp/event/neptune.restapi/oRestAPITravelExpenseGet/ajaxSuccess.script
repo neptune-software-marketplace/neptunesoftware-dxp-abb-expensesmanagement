@@ -1,0 +1,2 @@
+var data = modeloModelArray.getData();
+modeloSimpleForm.setData(data[0]);

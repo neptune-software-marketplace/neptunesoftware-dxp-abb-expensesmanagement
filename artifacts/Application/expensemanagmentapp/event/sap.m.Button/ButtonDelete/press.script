@@ -1,0 +1,11 @@
+
+var id1 = TextID.getText();
+
+
+var options = {
+    parameters: {
+        "where": JSON.stringify({"Uniqe_id": id1})
+    }
+};
+
+apiRestAPIDeleteExpenses(options);

@@ -1,0 +1,16 @@
+var username = AppCache.userInfo.username;
+
+var options = {
+    parameters: {
+        where: JSON.stringify({ createdBy: username}),
+    },
+};
+apiRestAPIGetExpenses(options);
+
+closeDetail();
+
+oDatePickerTDDateFrom.setValue();
+oDatePickerTDDateTo.setValue();
+oInputTDLocation.setValue();
+oInputTDReason.setValue();
+InputCountry.setValue();

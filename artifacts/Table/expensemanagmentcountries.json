@@ -1,0 +1,29 @@
+{
+	"id": "ab9c3b0c-fa29-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-24T08:14:05.526Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "40adaa9c-be16-43c6-c5b0-f94487a1bc93",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "b1cbb99f-6fc2-4808-cbae-bbb858ae527c",
+			"fieldName": "code",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "expensemanagmentcountries",
+	"description": null,
+	"ver": "24.3.20.191",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "67e22352-7142-ee11-b8f0-002248a2f7be",
+	"rolesRead": [],
+	"rolesWrite": []
+}
