@@ -74,7 +74,7 @@ InputNewCurr.setValue(firstCurrencyValue);
 const fromCurrency = fromcurr;
 const toCurrency = tocurr;
 const amountToConvert = floatNum;
-const apiKey = "9ea8956d64-85b1746085-sa3tvk";
+const apiKey = "ReplaceMe";
 
 convertCurrency(fromCurrency, toCurrency, amountToConvert, apiKey);
 
