@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-expensemanagement",
 	"description": null,
-	"ver": "24.3.22.102",
+	"ver": "24.3.22.1053",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -46,7 +46,7 @@
 			"id": "b174da30-536b-ed11-9f60-000d3aba46be",
 			"name": "ExpenseManagmentAzureBlob1",
 			"description": null,
-			"apiGroup": "b67887b8-d46c-ed11-9f60-000d3aba46be"
+			"apiGroup": null
 		},
 		{
 			"id": "4ef2dead-9b2b-ee11-907e-000d3a661202",

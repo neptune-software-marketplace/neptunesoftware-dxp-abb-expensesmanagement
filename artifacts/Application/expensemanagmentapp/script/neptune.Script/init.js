@@ -34,7 +34,7 @@ apiRestAPIGetExpenses(options);
 
 const apiKey = "";
 const url = `https://api.fastforex.io/currencies?api_key=${apiKey}`;
-let resultArray = []; // Sonuçlarımızı saklayacak dizi
+let resultArray = []; 
 
 const options1 = {
     method: 'GET',

@@ -36,7 +36,7 @@
 	"documentation": [],
 	"name": "ExpenseManagmentAzureBlob1",
 	"endpoint": "/api/serverscript/expensemanagmentazureblob1",
-	"ver": "24.3.21.953",
+	"ver": "24.3.22.1056",
 	"version": null,
 	"description": null,
 	"mediaType": "",
@@ -54,7 +54,7 @@
 	"tlsAllowUntrusted": false,
 	"useOwnProcess": false,
 	"package": "67e22352-7142-ee11-b8f0-002248a2f7be",
-	"apiGroup": "b67887b8-d46c-ed11-9f60-000d3aba46be",
+	"apiGroup": null,
 	"apiFormat": 0,
 	"roles": []
 }
