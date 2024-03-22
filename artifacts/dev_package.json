@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-expensemanagement",
 	"description": null,
-	"ver": "24.3.21.1025",
+	"ver": "24.3.22.102",
 	"enableCICD": true,
 	"apps": [
 		{
