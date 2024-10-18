@@ -15,6 +15,7 @@
 	"name": "Expense Managment Approve",
 	"ver": "24.3.20.1557",
 	"description": null,
+	"folder": null,
 	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,

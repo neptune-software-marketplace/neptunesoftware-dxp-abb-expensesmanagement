@@ -22,6 +22,7 @@
 	"name": "Expense Managment analyze Invoice",
 	"ver": "24.3.21.1042",
 	"description": null,
+	"folder": null,
 	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,

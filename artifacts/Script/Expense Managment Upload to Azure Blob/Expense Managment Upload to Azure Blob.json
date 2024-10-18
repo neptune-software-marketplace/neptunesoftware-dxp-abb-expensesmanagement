@@ -22,6 +22,7 @@
 	"name": "Expense Managment Upload to Azure Blob",
 	"ver": "24.3.21.1041",
 	"description": null,
+	"folder": null,
 	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,

@@ -1,7 +1,6 @@
 var currPage = 'begin';
 
 function navigateToDetail() {
-
     layout = helper.getNextUIState(1);
     butControl.closeDetail = (layout.actionButtonsInfo.midColumn.closeColumn !== null);
     butControl.fullScreenDetail = (layout.actionButtonsInfo.midColumn.fullScreen !== null);
@@ -15,14 +14,10 @@ function navigateToDetail() {
 }
 
 function closeDetail() {
-
-    if (!helper) return;
-    
     layout = helper.getNextUIState(0);
     oLayoutMain.setLayout(layout.layout);
 
     currPage = 'begin';
-
 }
 
 function fullScreenDetail() {
@@ -35,7 +30,6 @@ function fullScreenDetail() {
 
     modelAppMenuOptions.setData(butControl);
     modelAppMenuOptions.refresh();
-
 }
 
 function exitFullScreenDetail() {
@@ -49,7 +43,6 @@ function exitFullScreenDetail() {
 
     modelAppMenuOptions.setData(butControl);
     modelAppMenuOptions.refresh();
-
 }
 
 function navigateToDetailDetail() {
@@ -69,11 +62,9 @@ function navigateToDetailDetail() {
     oLayoutMain.setLayout(layout.layout);
 
     currPage = 'end';
-
 }
 
 function closeDetailDetail() {
-    if (!helper) return;
     layout = helper.getNextUIState(1);
     butControl.closeDetail = (layout.actionButtonsInfo.midColumn.closeColumn !== null);
     butControl.fullScreenDetail = (layout.actionButtonsInfo.midColumn.fullScreen !== null);
@@ -85,7 +76,6 @@ function closeDetailDetail() {
     oLayoutMain.setLayout(layout.layout);
 
     currPage = 'mid';
-
 }
 
 function fullScreenDetailDetail() {
@@ -99,7 +89,6 @@ function fullScreenDetailDetail() {
 
     modelAppMenuOptions.setData(butControl);
     modelAppMenuOptions.refresh();
-
 }
 
 function exitFullScreenDetailDetail() {
@@ -113,5 +102,4 @@ function exitFullScreenDetailDetail() {
 
     modelAppMenuOptions.setData(butControl);
     modelAppMenuOptions.refresh();
-
 }
