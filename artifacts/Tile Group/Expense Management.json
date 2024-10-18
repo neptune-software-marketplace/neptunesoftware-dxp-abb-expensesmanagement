@@ -9,7 +9,7 @@
 	],
 	"tilegroupsOrder": [],
 	"configMessage": {},
-	"title": "Expense Managment",
+	"title": "Expense Management",
 	"subTitle": null,
 	"description": null,
 	"titleAlignment": null,
@@ -28,7 +28,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "24.3.20.166",
+	"ver": "24.10.18.1602",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -42,7 +42,7 @@
 	"imageMobileHeight": null,
 	"imageTabletHeight": null,
 	"imageHeight": "",
-	"name": "Expense Managment",
+	"name": "Expense Management",
 	"cardContentWidth": null,
 	"cardContentAlign": null,
 	"cardPerRow": null,
@@ -65,9 +65,9 @@
 	"tiles": [
 		{
 			"id": "ec788a9f-582c-ee11-907e-000d3a661202",
-			"name": "Expense Managment",
-			"title": "Expense Managment",
-			"ver": "24.3.20.1647"
+			"name": "Expense Management",
+			"title": "Expense Management",
+			"ver": "24.10.18.1604"
 		},
 		{
 			"id": "96e87355-df2e-ee11-907e-000d3a661202",

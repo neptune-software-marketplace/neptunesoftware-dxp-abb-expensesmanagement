@@ -127,7 +127,7 @@
 		{
 			"id": "ec788a9f-582c-ee11-907e-000d3a661202",
 			"description": "",
-			"name": "Expense Managment"
+			"name": "Expense Management"
 		},
 		{
 			"id": "96e87355-df2e-ee11-907e-000d3a661202",
@@ -139,14 +139,14 @@
 		{
 			"id": "c251bfd7-7142-ee11-b8f0-002248a2f7be",
 			"description": null,
-			"name": "Expense Managment"
+			"name": "Expense Management"
 		}
 	],
 	"launchpad": [
 		{
 			"id": "0d4dcdc2-7142-ee11-b8f0-002248a2f7be",
-			"name": "Expense Managment Launchpad",
-			"description": "Expense Managment"
+			"name": "Expense Management Launchpad",
+			"description": "Expense Management"
 		}
 	],
 	"certificates": [],

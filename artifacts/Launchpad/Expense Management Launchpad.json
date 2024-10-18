@@ -47,12 +47,13 @@
 		"enhancement": "",
 		"disableCustomizations": true,
 		"enableTopMenu": true,
-		"showAppTitleMobile": true
+		"showAppTitleMobile": true,
+		"showAccessibilityFocusIndicator": true
 	},
 	"enhancement": [],
-	"name": "Expense Managment Launchpad",
-	"title": "Expense Managment",
-	"description": "Expense Managment",
+	"name": "Expense Management Launchpad",
+	"title": "Expense Management",
+	"description": "Expense Management",
 	"startApp": null,
 	"startWebApp": null,
 	"customLogo": "",
@@ -99,7 +100,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "24.3.20.1646",
+	"ver": "24.10.18.1604",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -113,9 +114,9 @@
 	"cat": [
 		{
 			"id": "c251bfd7-7142-ee11-b8f0-002248a2f7be",
-			"name": "Expense Managment",
-			"title": "Expense Managment",
-			"ver": "24.3.20.166"
+			"name": "Expense Management",
+			"title": "Expense Management",
+			"ver": "24.10.18.1602"
 		}
 	]
 }
