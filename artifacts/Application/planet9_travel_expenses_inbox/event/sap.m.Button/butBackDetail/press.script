@@ -1,0 +1,4 @@
+// oApp.backDetail();
+debugger;
+oLayoutMain.setLayout('OneColumn');
+// oLayoutMain.backToPage('oPageMaster');

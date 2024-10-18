@@ -1,0 +1,16 @@
+var selectedItem = this.getSelectedItem();
+sap.ui.core.BusyIndicator.show(0);
+if (selectedItem) {
+    var context = selectedItem.getBindingContext();
+    var taskTitleClicked = context.getProperty("taskTitle");
+    var taskItems = JSON.parse(JSON.stringify(groupedInbox.get(taskTitleClicked)));
+    modeloListWorkflow.setData(taskItems);
+    modeloListWorkflow.refresh();
+    if (sap.n) {
+        oLayoutMain.to(localViewID + '--oPageMaster');
+    } else {
+        oLayoutMain.to('oPageMaster');
+    }
+    oListWorkflow.removeSelections();
+    sap.ui.core.BusyIndicator.hide();
+}

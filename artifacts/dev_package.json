@@ -7,9 +7,18 @@
 	},
 	"name": "neptunesoftware-dxp-abb-expensemanagement",
 	"description": null,
-	"ver": "24.3.22.1053",
+	"ver": "24.3.22.1057",
 	"enableCICD": true,
 	"apps": [
+		{
+			"id": "d7c93b21-df2e-ee11-907e-000d3a661202",
+			"application": "planet9_travel_expenses_inbox",
+			"title": "Workflow Inbox",
+			"description": "Workflow Inbox - Fiori 3",
+			"package": {
+				"id": "67E22352-7142-EE11-B8F0-002248A2F7BE"
+			}
+		},
 		{
 			"id": "a16228f7-d0e6-ee11-aaee-000d3a64f286",
 			"application": "expensemanagmentapp",
@@ -137,7 +146,7 @@
 		{
 			"id": "0d4dcdc2-7142-ee11-b8f0-002248a2f7be",
 			"name": "Expense Managment Launchpad",
-			"description": "Expense Managment"
+			"description": "Expense Management"
 		}
 	],
 	"certificates": [],
